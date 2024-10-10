@@ -58,13 +58,14 @@ export const Contact = () => {
 
   return (
     <>
-    <Seo
+    {/* SInce its a single paged website for now no need of adding these metadata to avoid conflicting */}
+    {/* <Seo
       title="Contact Us"
       description="Get in touch with Dopastack for expert tech solutions tailored to your needs. Fill out our contact form or reach us directly to discuss how we can assist you in achieving your business goals."
       addPostFixTitle={true}
       keywords="Contact Dopastack, Tech Solutions Inquiry, Customer Support"
       largeTwitterCard={true}
-    />
+    /> */}
       <section className="contact" id="contact">
         <div className="contact__section">
           <div className="contact__header" data-aos="fade-up">
