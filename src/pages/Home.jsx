@@ -12,6 +12,7 @@ import "../styles/faq.css";
 import Faq from "../component/Faq";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
+import Seo from "../component/Seo";
 
 export const Home = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -130,6 +131,13 @@ export const Home = () => {
 
   return (
     <>
+     <Seo
+      title="Dopastack - Innovative Tech Solutions for Businesses"
+      description="Dopastack connects tech professionals with clients seeking specialized services. Explore our offerings in Custom Software Development, Web Development, Digital Marketing, and more to enhance your business efficiency."
+      addPostFixTitle={false}
+      keywords="Custom Software Development, Web Development, Business Branding, Mobile App Development, Digital Marketing, AI and Machine Learning, UI/UX Design, IT Consulting, Content Writing, Digital Transformation, E-commerce Solution, Product Design"
+      largeTwitterCard={true}
+    />
       <section className="header__section" id="home">
         <div className="header__inner__con">
           <Nav />

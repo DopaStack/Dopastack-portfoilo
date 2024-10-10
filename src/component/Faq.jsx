@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import "../styles/faq.css";
+import Seo from "./Seo";
 
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -78,6 +79,14 @@ const Faq = () => {
   ];
 
   return (
+    <>
+    <Seo
+      title="Frequently Asked Questions"
+      description="Find answers to common questions about Dopastack's services and offerings. Learn more about our tech solutions in Custom Software Development, Digital Marketing, and more."
+      addPostFixTitle={true}
+      keywords="Dopastack FAQ, Frequently Asked Questions, Tech Solutions Queries"
+      largeTwitterCard={true}
+    />
     <div className="faq-section" id="service">
       <div className="faq" data-aos="fade-up">
         <h1>Our Service Include</h1>
@@ -95,7 +104,7 @@ const Faq = () => {
         </div>
       ))}
     </div>
-  );
+  </>);
 };
 
 export default Faq;
