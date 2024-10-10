@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Nav } from "../component/Nav";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "../styles/home.css";
 import { Contact } from "../component/Contact";
 import { Footer } from "../component/Footer";

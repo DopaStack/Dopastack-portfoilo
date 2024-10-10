@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { Nav } from "./Nav";
+// import { Nav } from "./Nav";
 import "../styles/contact.css";
-import { Footer } from "./Footer";
+// import { Footer } from "./Footer";
 import axios from "axios";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import Seo from "./Seo";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+// import Seo from "./Seo";
 
 
 export const Contact = () => {

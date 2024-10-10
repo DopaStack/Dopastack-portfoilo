@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import "../styles/faq.css";
-import Seo from "./Seo";
+// import Seo from "./Seo";
 
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
